@@ -20,7 +20,7 @@ class Node{
     }
 //insert the node into the last position
     insertLast(data){
-    let node = new Node(this.head,data)
+    let node = new Node(data)
     let current
     if(this.head === null){
         this.head = node
